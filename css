@@ -1,0 +1,43 @@
+*{
+        margin:0;
+ }
+
+ body{
+        background-color: rgb(250, 250, 250);
+}
+
+ header{
+        background-color: cornflowerblue;
+        height:119px;
+        padding:20px;
+        display: flex;
+        align-items:center;
+}
+
+#logo{
+        height:100px;
+        display:flex;
+}
+
+.sapatos{
+        width: 640px;
+        display: flex;
+        justify-content: space-around;
+        align-items:center;
+}
+.seg{
+        margin-top:70px;
+        display: flex;
+        justify-content:space-around;
+
+   }
+    .videos{
+    width:540px;
+    height:315px;
+ }
+ #mapa{
+        flex-direction: column;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+}
